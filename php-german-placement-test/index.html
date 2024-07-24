@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ALMANCA SEVİYE TESPİT SINAVI</title>
+    <meta name="author" content="Sinan Özçelik">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="images/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <script src="images/jquery-1.9.1.js"></script>
+    <link href="images/style.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+
+        html, body {
+            overflow-x: hidden;
+        }
+
+        strong {
+            line-height: 35px !important;
+            letter-spacing: -1px;
+        }
+
+        .num {
+            background-color: #282460;
+            border-radius: 5px;
+            box-shadow: 0 0 3px black inset;
+            color: white;
+            float: left;
+            font-size: 19px;
+            font-weight: 600;
+            margin-right: 15px;
+            margin-top: -5px;
+            padding: 5px 5px;
+            text-align: center;
+            vertical-align: middle;
+            width: 20px;
+        }
+
+        .smsinfo {
+            background-color: #fffbde;
+            color: red;
+            font-size: 18px;
+            line-height: 30px;
+            margin: 10px 0 20px;
+            padding: 11px;
+            width: 100%;
+            max-width: 100%;
+        }
+    </style>
+    <script src="images/jquery.validationEngine-tr.js" type="text/javascript" charset="utf-8"></script>
+    <script src="images/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="images/validationEngine.jquery.css" type="text/css">
+    <script>
+        $(document).ready(function () {
+            $("#form1").validationEngine();
+            $("#phone").mask("0 (999) 999-99-99");
+        });
+    </script>
+    <script src="images/input.mask.js"></script>
+</head>
+<body>
+<div class="span12 header-top">
+    <div class="container-fluid">
+        <div class="pull-left visible-desktop">
+            <p style="font-size:28px; margin-top:30px; !important; color:white; letter-spacing: -1px; font-weight:300;">
+                Almanca Seviye Tespit Sınavı</p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <h4 class="hidden-desktop">Almanca Seviye Tespit Sınavı</h4>
+            <form id="form1" action="kayit.php" method="POST">
+                <div class="hepsinikapa alan1">
+                    <h3>A1 SEVİYE</h3>
+                    <strong><p class="num">1</p>1. Guten Tag, mein Name ist Sebastian Wegner und wie ………….. Sie ?
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru1" value="a">A. ist
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru1" value="b"> B. sein
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru1" value="c"> C. heißen
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru1" value="d"> D. heißt
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">2</p>2. Ich komme ……… der Türkei. Woher kommen Sie ? </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru2" value="a"> A. von
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru2" value="b">B. in
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru2" value="c">C. nach
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru2" value="d">D. aus
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">3</p>3. Ich spreche sehr gut Türkisch, gut Englisch und ein bisschen Deutsch.
+                        Welche Sprachen ……… du ?
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru3" value="a"> A. sprichst
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru3" value="b"> B. sprechen
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru3" value="c"> C. spreche
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru3" value="d"> D. sprecht
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">4</p>4. Eva und Niki wohnen in Berlin. …….. kommen aus Deutschland. </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru4" value="a"> A. Wir
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru4" value="b">B. Sie
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru4" value="c"> C. Ich
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru4" value="d"> D. Du
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">5</p>5. Haben Sie Geschwister ?
+                        -Ja, ich habe ………. Bruder.
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru5" value="a">
+                        A. ein
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru5" value="b">
+                        B. eine
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru5" value="c">
+                        C. kein
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru5" value="d">
+                        D. einen
+                    </label>
+
+
+                    <br><br>
+                    <strong><p class="num">6</p> 6. Seit wann leben Sie in der Türkei ?
+                        -Ich lebe seit ……… Jahr in der Türkei.
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru6" value="a">
+                        a) 3
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru6" value="b">
+                        b) ein
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru6" value="c">
+                        c) einem
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru6" value="d">
+                        D. einer
+                    </label>
+
+
+                    <br><br>
+                    <strong><p class="num">7</p> 7. Ich ………. heute um 08.00Uhr aufgestanden. Wann ………. du aufgestanden ?
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru7" value="a">
+                        A. bin/bist
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru7" value="b">
+                        B. bin/hast
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru7" value="c">
+                        C. habe/hast
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru7" value="d">
+                        D. habe/bin
+                    </label>
+
+
+                    <br><br>
+                    <strong><p class="num">8</p>8. ........ Auto ……… du gekauft ? </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru8" value="a">
+                        A. Welchen/haben
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru8" value="b">
+                        B. Welches /hast
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru8" value="c">
+                        C. Welcher /bist
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru8" value="d">
+                        D. Welche /hat
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">9</p> 9. …….. du gestern ins Kino gegangen.
+                        - Nein, ich …… müde.
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru9" value="a">
+                        A. Hast/war
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru9" value="b">
+                        B. Bist/bin
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru9" value="c">
+                        C. Bist/war
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru9" value="d">
+                        D. Bist/ hatte
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">10</p>10. Kommst du mit …….. Vater zur Schule.
+                        - Nein, ich komme mit ……… Mutter.
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru10" value="a">
+                        A. deinen/meine
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru10" value="b">B. dein/meine
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru10" value="c">
+                        C. deinem/meiner
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru10" value="d">
+                        D. sein/seine
+                    </label>
+
+
+                    <br><br>
+                    <a href="#" class="btn btn-primary btn1 btn-large">Devam Et</a> - <a href="#"
+                                                                                         class="btn btn-danger btn-large tmm">Testi
+                    Bitir</a>
+                </div>            <!-- ALAN 1 BİTER -->
+
+                <div class="hepsinikapa alan2" style="display: none;">
+                    <h3>A2 SEVİYE</h3>
+                    <strong><p class="num">1</p> 11. Ist das …….. Auto deins ?
+                        - Ja, das ….. Auto ist meins.
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru11" value="a"> A. rote/rote
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru11" value="b"> B. blauen/blauen
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru11" value="c"> C. grünes/grünes
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru11" value="d"> D. braun/braun
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">2</p> 12. Was für …… Tisch möchten Sie ?
+                        - Ich möchte einen ……. Tisch.</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru12" value="a"> A. keinen/neuen
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru12" value="b"> B. einen/neuen
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru12" value="c"> C. ein/neuer
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru12" value="d"> D. eine/neue
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">3</p>13. Wo warst du gestern ?
+                        - Ich war ……. Sebastian …….. Hause.
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru13" value="a"> A. in/zu
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru13" value="b"> B. bei/zu
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru13" value="c"> C. zu/nach
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru13" value="d"> D. bei/in
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">4</p>14. Was …….. Sie machen, wenn Sie reich ……… ?</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru14" value="a"> A. würden/waeren
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru14" value="b"> B. waeren/könnten
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru14" value="c"> C. haetten/würden
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru14" value="d"> D. könnten/würden
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">5</p> 15. Ich habe viel Deutsch gelernt. ……….. konnte ich die Prüfung nicht
+                        schaffen</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru15" value="a"> A. Weil
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru15" value="b"> B. Deshalb
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru15" value="c"> C. Trotzdem
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru15" value="d"> D. Denn
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">6</p>16. Hanna, hast du mein Deutschbuch gesehen ?
+                        - Ja, das liegt …… Tisch. Steck es bitte ……. Tasche.
+                        .</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru16" value="a"> A. Auf dem / in die
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru16" value="b"> B. İn dem / zum
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru16" value="c"> C. Am / in der
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru16" value="d"> D. Auf die / im
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">7</p>17. Hallo, vielen Dank für deinen E-Mail, ……….. den ich mich sehr
+                        gefreut habe</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru17" value="a"> A. auf
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru17" value="b"> B. darauf
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru17" value="c"> C. über
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru17" value="d"> D. um
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">8</p>18. Mein Lehrer ? Das ist der Mann, ……. in der Mitte sitzt.
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru18" value="a"> A. der
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru18" value="b"> B. den
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru18" value="c"> C. die
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru18" value="d"> D. das
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">9</p>19. Ich dusche ………..</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru19" value="a"> A. mir
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru19" value="b"> B. mich
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru19" value="c"> C. dich
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru19" value="d"> D. sich
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">10</p> 20. Ist das rauchen hier erlaubt ?
+                        - Nein, wir ……….. leider raus, wenn wir rauchen ……… .
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru20" value="a"> A. dürfen/können
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru20" value="b"> B. können/müssen
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru20" value="c"> C. möchten/mögen
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru20" value="d"> D. müssen/wollen
+                    </label>
+
+                    <br><br>
+                    <a href="#" class="btn btn-primary btn-primary btn2 btn-large">Devam Et</a> - <a href="#"
+                                                                                                     class="btn btn-danger btn-large tmm">Testi
+                    Bitir</a>
+                </div> <!-- ALAN 2 BİTER -->
+
+                <div class="hepsinikapa alan3" style="display: none;">
+                    <h3>B1 SEVİYE</h3>
+                    <strong><p class="num">1</p> 21. Ich könnte viel besser Gitarre spielen, wenn ich mehr Zeit zum Üben
+                        …….. .</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru21" value="a"> A. haette
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru21" value="b"> B. haben
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru21" value="c"> C. habe
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru21" value="d"> D. haetten
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">2</p> 22. Sebastian, bist du einverstanden ………..</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru22" value="a"> A. Daran
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru22" value="b"> B. Damit
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru22" value="c"> C. Dafür
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru22" value="d"> D. Dagegen
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">3</p>23. 1955 ……….. ein Lernhilfeverein ……… worden. </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru23" value="a"> A. War/gebildet
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru23" value="b"> B. İst/öffnen
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru23" value="c"> C. İst/gegründet
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru23" value="d"> D. Hat/geöffnet
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">4</p> 24. ……………. meine Schwester ………….. meine Freundin mögen schwimmen.
+                    </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru24" value="a"> A. Sowohl/als auch
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru24" value="b"> B. Auch/auch
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru24" value="c"> C. -------/damit
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru24" value="d"> D. Sowohl/weder
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">5</p> 25. Sebastian geht ……. nicht oft in die Disko, er tanzt ……. trotzdem
+                        gern.</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru25" value="a"> A. Entweder/oder
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru25" value="b"> B. Nicht nur / weder
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru25" value="c"> C. Weder / aber
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru25" value="d"> D. Zwar/ aber
+                    </label>
+
+
+                    <br><br>
+                    <strong><p class="num">6</p> 26. Ich bin gerade ziemlich ………….. . Am Montag heiraten Sebastian und
+                        Maria und ich suche noch ein ……….. Kleid. </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru26" value="a"> A. Stressig /passend
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru26" value="b"> B. Gestresst/passendes
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru26" value="c"> C. Stressend/ passende
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru26" value="d"> D. Stress/ passenden
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">7</p> 27. Herr Yalcin, haben Sie die ………. für die Sitzung morgen schon
+                        zusammengestellt ? .</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru27" value="a"> A. Unterlagen
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru27" value="b"> B. Ablage
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru27" value="c"> C. Konten
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru27" value="d"> D. Zusaetze
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">8</p> 28. ……… laenger ich in Deutschland lebe ……. Schwerer finde ich manches
+                        hier zu verstehen. </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru28" value="a"> A. Weder/noch
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru28" value="b"> B. Sowohl/als auch
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru28" value="c"> C. Je/desto
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru28" value="d"> D. Je/auch
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">9</p> 29. Wer einmal lügt, ……… glaubt man nicht, und wenn er auch die
+                        Wahrheit spricht. </strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru29" value="a"> A. Der
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru29" value="b"> B. Des
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru29" value="c"> C. Den
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru29" value="d"> D. Dem
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">10</p>30. Worauf kommt es eigentlich ………, wenn ich einen HandyVertrag
+                        abschließen will?</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru30" value="a"> A. Aus
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru30" value="b"> B. An
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru30" value="c"> C. Vor
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru30" value="d"> D. Bei
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">10</p>31. Der frühere Vögel ………. den Wurm</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru31" value="a"> A. Sucht
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru31" value="b"> B. Hat
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru31" value="c"> C. Faengt
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru31" value="d"> D. Nimmt
+                    </label>
+
+                    <br><br>
+                    <strong><p class="num">10</p>32. Soll hier schon der Chef aktiv werden, …………. er die Streitenden zum
+                        Gespräch bittet.</strong><br><br>
+                    <label class="radio">
+                        <input type="radio" name="soru32" value="a"> A. Sodass
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru32" value="b"> B. Anstatt
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru32" value="c"> C. İndem
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="soru32" value="d"> D. Aber
+                    </label>
+
+                    <br><br>
+                    <a href="#" class="btn btn-danger btn-large tmm">Testi Bitir</a>
+
+                </div> <!-- ALAN 3 BİTER -->
+
+
+                <div class="gonder-form" style="background: white; display: none;">
+                    <h3>Testi Bitir</h3>
+                    <div class="alert alert-warning alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Kapat"><span
+                                aria-hidden="true">×</span></button>
+                        <strong>Test sonucunuz E-POSTA adresinize gönderilecektir. Lütfen geçerli bir e-posta adresi
+                            giriniz.</strong>
+                    </div>
+                    <strong>Lütfen iletişim bilgilerinizi eksiksiz doldurunuz.</strong><br><br>
+                    <input name="isim" class="validate[required,minSize[5]] input-medium" type="text" required=""
+                           style="width:270px; padding:8px;" placeholder="Adınız ve Soyadınız"><br>
+                    <input name="telefon" class="validate[required] input-medium" type="tel" required=""
+                           style="width:270px; padding:8px;" id="phone" placeholder="Telefon Numaranız"><br><br>
+                    <input name="mail" class="validate[required,custom[email]] input-medium" type="email" required=""
+                           style="width:270px; padding:8px;" placeholder="E-mail Adresiniz"><br><br>
+                    <input name="ilce" class="validate[required,minSize[3]] input-medium" type="text" required=""
+                           style="width:270px; padding:8px;" placeholder="Bulunduğunuz İlçe"><br><br>
+                    İlgilendiğiniz Kurs Dönemi
+                    <br><br>
+                    <div class="pull-left" style="margin-right:25px;">
+                        <label class="checkbox" style="font-size:14px;">
+                            <input type="checkbox" id="inlineCheckbox1" name="donem" value="Hafta içi "> Hafta içi
+                        </label>
+                        <label class="checkbox" style="font-size:14px;">
+                            <input type="checkbox" id="inlineCheckbox1" name="donem" value="Hafta Sonu"> Hafta sonu
+                        </label>
+                    </div>
+                    <div class="pull-left" style="margin-bottom:10px;">
+                        <label class="checkbox" style="font-size:14px;">
+                            <input type="checkbox" id="inlineCheckbox2" name="zaman" value="Sabah "> Sabah
+                        </label>
+                        <label class="checkbox" style="font-size:14px;">
+                            <input type="checkbox" id="inlineCheckbox2" name="zaman" value="Öğle "> Öğle
+                        </label>
+                        <label class="checkbox" style="font-size:14px;">
+                            <input type="checkbox" id="inlineCheckbox2" name="zaman" value="Akşam"> Akşam
+                        </label>
+                    </div>
+                    <div class="clearfix"></div>
+                    <p>
+                        Lütfen güvenlik kodunu giriniz.<br>
+                        <img src="images/guvenlik.php"><br>
+                        <input name="guvenlikKodu" class="validate[required,minSize[4]] input-medium" type="text"
+                               required="" style="width:270px; padding:8px; margin-top: 5px"
+                               placeholder="Güvenlik Kodu">
+                    </p>
+                    <div class="clearfix"></div>
+                    <button class="btn btn-primary btn-large" type="submit">GÖNDER</button>
+                </div>
+            </form>
+            <div id="sonuc"></div>
+        </div>
+
+    </div>
+</div>
+<footer>
+    <div class="footer" style="background:black; padding:10px;">
+        <div class="container narrow row-fluid" style="margin:0 auto; width:960px;">
+            <div class="span10" style="color:white;">
+                Copyright © Tüm Hakları Saklıdır.
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+<script>
+
+    $(".tmm").click(function () {
+        $(".hepsinikapa").fadeOut(300);
+        $(".gonder-form").delay(350).fadeIn();
+    });
+
+    $(".btn1").click(function () {
+        $(".alan1").fadeOut(300);
+        $(".alan2").delay(310).fadeIn();
+    });
+
+    $(".btn2").click(function () {
+        $(".alan2").fadeOut(300);
+        $(".alan3").delay(310).fadeIn();
+    });
+
+    $(".btn3").click(function () {
+        $(".alan3").fadeOut(300);
+        $(".alan4").delay(310).fadeIn();
+    });
+
+    $(".btn4").click(function () {
+        $(".alan4").fadeOut(300);
+        $(".alan5").delay(310).fadeIn();
+    });
+
+    $(".btn5").click(function () {
+        $(".alan5").fadeOut(300);
+        $(".alan6").delay(310).fadeIn();
+    });
+
+</script>
+<script src="images/jquery.placeholder.js"></script>
+<script>
+    // To test the @id toggling on password inputs in browsers that don’t support changing an input’s @type dynamically (e.g. Firefox 3.6 or IE), uncomment this:
+    // $.fn.hide = function() { return this; }
+    // Then uncomment the last rule in the <style> element (in the <head>).
+    $(function () {
+        // Invoke the plugin
+        $('input, textarea').placeholder();
+        // That’s it, really.
+        // Now display a message if the browser supports placeholder natively
+
+    });
+</script>
+
+</body>
+</html>

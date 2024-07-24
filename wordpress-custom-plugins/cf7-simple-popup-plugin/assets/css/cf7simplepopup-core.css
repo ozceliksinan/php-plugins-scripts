@@ -1,0 +1,13 @@
+﻿div.wpcf7-response-output,
+div.wpcf7-validation-errors {
+    display: none !important;
+}
+
+span.wpcf7-not-valid-tip {
+    display: none;
+}
+
+input[aria-invalid="true"],
+select[aria-invalid="true"] {
+    border-color: #ff2c00!important; 
+}

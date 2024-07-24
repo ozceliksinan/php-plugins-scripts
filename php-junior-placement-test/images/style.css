@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand&subset=latin,latin-ext);
+
+body {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.container-fluid {
+    max-width: 960px !important;
+    margin: 0 auto !important;
+    margin-top: 10px !important;
+}
+
+.header-top {
+    background-image: url(header.jpg);
+    border-bottom: 2px dashed #fff;
+    border-radius: 0 !important;
+    box-shadow: 0 0 10px #ADADAD;
+    margin-bottom: 15px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+strong {
+    color: #26B9EA;
+    margin-top: 15px !important;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h3 {
+    color: #82D9E8;
+    letter-spacing: -1px;
+    font-weight: 300;
+    border-bottom: solid 1px #FAFAFA;
+    margin-bottom: border-radius: 15px;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.radio, .checkbox {
+    color: #171717;
+    font-size: 17px;
+    margin-left: 41px;
+}
+
+.container-fluid {
+    margin-top: 1px !important;
+}
+
+.kt {
+    margin-top: 100px !important;
+}
